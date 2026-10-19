@@ -1,4 +1,4 @@
-package uk.ac.westminster.products_api;
+package uk.ac.westminster.products_api.product;
 
 public class Product {
 
@@ -11,6 +11,10 @@ public class Product {
         this.name= name;
         this.price=price;
     }
+
+    public Product() {
+    }
+
     public Long getId(){
         return this.id;
     }
